@@ -1,0 +1,28 @@
+# 代理服务器配置文件示例
+# 每行一个代理地址，支持以下格式：
+# 1. HTTP/HTTPS代理
+# 2. SOCKS5代理
+# 3. 带认证的代理
+
+# HTTP代理示例（无认证）
+1.1.1.1:7010
+
+# HTTP代理示例（带认证）
+user:password@proxy.example.com:8080
+admin:secret@corporate-proxy.com:3128
+
+# SOCKS5代理示例
+socks5://127.0.0.1:1080
+socks5://user:pass@socks.example.com:1080
+
+# SOCKS4代理示例
+socks4://127.0.0.1:1080
+
+# HTTPS代理示例
+https://proxy.example.com:8443
+
+# 说明：
+# 1. 程序会自动识别代理类型
+# 2. 使用 --rotate-proxy 参数可以轮换使用多个代理
+# 3. 如果代理地址没有协议前缀，可以使用 --proxy-type 参数指定类型
+# 4. 使用 --proxy-file 参数加载此文件
