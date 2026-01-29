@@ -148,5 +148,3 @@ python optimized_forum_scraper.py --url "目标URL" --proxy "代理地址"
 
 ### 文档文件
 - `README.md` - 使用说明（本文档）
-- `ADVANCED_GUIDE.md` - 高级技术指南
-- `image_scraper_documentation.md` - 通用爬虫文档
