@@ -148,3 +148,4 @@ python optimized_forum_scraper.py --url "目标URL" --proxy "代理地址"
 
 ### 文档文件
 - `README.md` - 使用说明（本文档）
+- `QUICK_START.md` - 快速开始指南

@@ -19,8 +19,6 @@
 
 ### 文档文件
 5. **`README.md`** - 使用说明
-6. **`ADVANCED_GUIDE.md`** - 高级技术指南
-7. **`image_scraper_documentation.md`** - 通用爬虫文档
 
 ## 快速使用
 
